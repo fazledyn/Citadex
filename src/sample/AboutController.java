@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 
 public class AboutController implements Initializable {
 
-    private static final String githubLink = "";
+    private static final String githubLink = "http://github.com/fazledyn/Citadex";
 
     private Stage primaryStage;
 
