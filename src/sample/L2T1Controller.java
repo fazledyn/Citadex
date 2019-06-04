@@ -88,7 +88,7 @@ public class L2T1Controller implements Initializable {
         Scene scene = new Scene(Start);
         primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
-        primaryStage.setTitle(" Citadex : L2T1 ");
+        primaryStage.setTitle("Citadex - Beta");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

@@ -31,7 +31,7 @@
         <Button fx:id="button42" layoutX="419.0" layoutY="282.0" mnemonicParsing="false" onAction="#absentButtonAction"
                 prefHeight="35.0" prefWidth="100.0" text="L4T2"/>
         <Button fx:id="seniorButton" layoutX="419.0" layoutY="96.0" mnemonicParsing="false"
-                onAction="#seniorButtonAction" prefHeight="35.0" prefWidth="100.0" text="Senior Drive"/>
+                onAction="#seniorButtonAction" prefHeight="35.0" prefWidth="100.0" text="Senior's Drive"/>
         <Button fx:id="studentDocButton" layoutX="419.0" layoutY="147.0" mnemonicParsing="false"
                 onAction="#studentDocAction" prefHeight="35.0" prefWidth="100.0" text="Student Info"/>
         <Button fx:id="aboutButton" layoutX="419.0" layoutY="45.0" mnemonicParsing="false" onAction="#aboutButtonAction"

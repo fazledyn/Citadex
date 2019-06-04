@@ -6,7 +6,6 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="350.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.1"
             xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UnderConstructionController">
     <children>
@@ -18,7 +17,7 @@
             </font>
         </Label>
         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="103.0" prefHeight="42.0"
-               prefWidth="550.0" text="This page is under" textAlignment="CENTER" textFill="WHITE">
+               prefWidth="550.0" text="This page is" textAlignment="CENTER" textFill="WHITE">
             <font>
                 <Font name="Candara" size="26.0"/>
             </font>

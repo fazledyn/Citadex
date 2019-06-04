@@ -28,7 +28,7 @@ public class UnderConstructionController implements Initializable {
         Scene scene = new Scene(Start);
         primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
-        primaryStage.setTitle(" Citadex - Beta ");
+        primaryStage.setTitle("Citadex - Beta");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

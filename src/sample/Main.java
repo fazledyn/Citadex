@@ -53,7 +53,7 @@ public class Main extends Application {
         Scene scene = new Scene(Start);
         primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
-        primaryStage.setTitle(" Citadex : L2T1 ");
+        primaryStage.setTitle("Page under construction");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
