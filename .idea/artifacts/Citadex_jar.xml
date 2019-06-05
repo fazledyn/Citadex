@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Citadex:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Citadex_jar</output-path>
+    <root id="archive" name="Citadex.jar">
+      <element id="module-output" name="Citadex" />
+    </root>
+  </artifact>
+</component>

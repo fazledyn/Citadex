@@ -9,7 +9,7 @@
 <AnchorPane prefHeight="350.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.1"
             xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.L2T1Controller">
     <children>
-        <Rectangle arcHeight="5.0" fill="#1d2125" height="350.0" stroke="BLACK" strokeType="INSIDE" width="550.0"/>
+        <Rectangle arcHeight="5.0" fill="#1d2125" height="357.0" stroke="#1d2125" strokeType="INSIDE" width="557.0"/>
         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="29.0" prefHeight="35.0"
                prefWidth="389.0" text="Level 2 - Term 1" textFill="WHITE">
             <font>

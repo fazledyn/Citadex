@@ -29,8 +29,9 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Homepage.fxml"));
-        primaryStage.setTitle(" Citadex - Beta ");
-        primaryStage.setScene(new Scene(root, 550, 350));
+        primaryStage.setTitle("Citadex - Beta");
+        primaryStage.setScene(new Scene(root, 545, 345));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
@@ -41,7 +42,7 @@ public class Main extends Application {
         Scene scene = new Scene(Start);
         primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
-        primaryStage.setTitle(" Citadex : L2T1 ");
+        primaryStage.setTitle("Citadex : Level 2-Term 1");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
