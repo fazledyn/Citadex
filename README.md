@@ -8,6 +8,4 @@ This is a simple Desktop Application made using <b>JavaFX</b> to access the file
 
 If you want to work on this project with me, you can surely contact me on my email: rabidahamed@gmail.com. It's an open source project. Which means you can work on it too if you find it interesting. 
 
-
-
-
+Find the Executable(.EXE) file here : https://sourceforge.net/projects/citadex/
