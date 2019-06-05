@@ -6,10 +6,11 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="350.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.1"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UnderConstructionController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0"
+            prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.UnderConstructionController">
     <children>
-        <Rectangle arcHeight="5.0" fill="#1d2125" height="357.0" stroke="#1d2125" strokeType="INSIDE" width="560.0"/>
+        <Rectangle arcHeight="5.0" fill="#1d2125" height="372.0" stroke="#1d2125" strokeType="INSIDE" width="565.0"/>
         <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="145.0" prefHeight="42.0"
                prefWidth="550.0" text="UNDER CONSTRUCTION" textAlignment="CENTER" textFill="WHITE">
             <font>
