@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0"
+            prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.UnderConstructionController">
+    <children>
+        <Rectangle arcHeight="5.0" fill="#1d2125" height="372.0" stroke="#1d2125" strokeType="INSIDE" width="565.0"/>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="145.0" prefHeight="42.0"
+               prefWidth="550.0" text="UNDER CONSTRUCTION" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold" size="36.0"/>
+            </font>
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="103.0" prefHeight="42.0"
+               prefWidth="550.0" text="This page is" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Candara" size="26.0"/>
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="226.0" layoutY="223.0" mnemonicParsing="false" onAction="#backButtonAction"
+                prefHeight="35.0" prefWidth="100.0" text="Back" textAlignment="CENTER">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

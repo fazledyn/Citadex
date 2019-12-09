@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0"
+            prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.AboutController">
+    <children>
+        <Rectangle arcHeight="5.0" fill="#1d2125" height="360.0" stroke="#1d2125" strokeType="INSIDE" width="560.0"/>
+        <Label layoutX="28.0" layoutY="39.0" prefHeight="80.0" prefWidth="387.0" text="CITADEX : Beta"
+               textFill="#dadada">
+            <font>
+                <Font name="Agency FB Bold" size="65.0"/>
+            </font>
+        </Label>
+        <Label alignment="TOP_CENTER" layoutX="28.0" layoutY="132.0" prefHeight="123.0" prefWidth="493.0"
+               text="Here's a simple Desktop Application for our Citadex Drive. It provides an easier way to get you access to the drive. You're welcomed to work on this project on your own. You can get the project by clicking the Github button below. If you want to collaborate and want to work on this thing or even have some ideas, you can surely contact me."
+               textAlignment="JUSTIFY" textFill="#dadada" wrapText="true">
+            <font>
+                <Font name="Calibri Light" size="16.0"/>
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="282.0" prefHeight="35.0" prefWidth="200.0" text="Ataf Fazledin Ahamed"
+               textFill="#cfcfcf" wrapText="true">
+            <font>
+                <Font name="Segoe Script" size="12.0"/>
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="273.0" prefHeight="19.0" prefWidth="167.0" text="Regards," textFill="#cfcfcf">
+            <font>
+                <Font name="Calibri" size="14.0"/>
+            </font>
+        </Label>
+        <Button fx:id="backButton" focusTraversable="false" layoutX="301.0" layoutY="282.0" mnemonicParsing="false"
+                onAction="#backButtonAction" prefHeight="35.0" prefWidth="100.0" text="Back"/>
+        <Button fx:id="githubButton" focusTraversable="false" layoutX="415.0" layoutY="282.0" mnemonicParsing="false"
+                onAction="#githubButtonAction" prefHeight="35.0" prefWidth="100.0" text="Github Repo."/>
+    </children>
+</AnchorPane>
